@@ -88,6 +88,9 @@ class BFS:
 				# mark node as explored
 				
 				explored.append(node)
+				print("////////")
+				print(explored)
+				print("///////////////")
 
 		# in case there is no path
 		return "path not accessible"
